@@ -1,0 +1,796 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ /* ___________1st-section (start)____________ */
+.first{
+    height: 100vh;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient( rgba(0, 0, 255, 0.288),rgba(0, 0, 255, 0.288) ),url(./hero.jpg); 
+}
+.first>img{
+    height: 70px;
+    width: 150px;
+    margin: 3.5vh 0 0 15vh; 
+}
+.first>ol{
+    list-style: none;
+    margin-left: 52%;
+    margin-top: -7vh;
+    cursor: pointer;
+
+}
+.first>ol>li:hover{
+    transform: scale(1.2);
+    color: bisque;
+}
+.first>ol>li{
+    transition-property: all;
+    transition-duration: 2s;
+    float: left;
+    margin-left: 10vh;
+    color: white;
+    font-size: 22px;
+}
+.first-one{
+    color: white;
+    margin: 20vh 0 0 33vh;
+    height: 40vh;
+    width: 25vw;
+    font-size: 25px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.first-one:hover{
+    transform: scale(1.3);
+}
+.first-one>p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 3vh;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.first-one>p:hover{
+transform: translate(70px);
+}
+.first-one>button{
+    height: 7vh;
+    width: 20vh;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px 3px white;
+    margin-top: 8vh;
+    background-color: transparent;
+    color: white;
+    border-style: none;
+    box-shadow: white;
+}
+.first-one:hover>button{
+    background-color: rgba(0, 0, 0, 0.856);
+    transition-duration: 3s;
+}
+
+.first-two{
+    margin: -45vh 0 0 58%;
+   
+}
+.first-two>img{
+  height: 70vh;
+    width: 55%;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.first-two>img:hover{
+ transform: translate(100px);
+}
+ /* ___________1st-section (END)____________ */
+ /* ___________2nd-section (start)____________ */
+
+.second{
+    height: 75vh;
+    width: 100%;
+    background-color: rgba(128, 128, 128, 0.774);
+}
+.second-one{
+    margin: 0 0 0 18vh;
+    padding-top: 12vh;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.second-one:hover{
+ transform: scale(0.9);
+}
+.second-one>p{
+height: 8vh;
+width: 25vw;
+margin-top: 3vh;
+}
+.second-one>h2{
+    font-size: 30px;
+}
+.second-one>h1{
+    font-size: 49px;
+    margin-top: 4vh;
+}
+.second-two{
+    margin: -30vh 0 0 43% ;
+    background-color: white;
+    height: 42vh;
+    width: 23%;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 2s;
+    box-shadow: 0 0 100px 20px rgba(0, 0, 0, 0.589);
+}
+.second-two:hover{
+ transform: scale(1.3);
+}
+.second-two>h1{
+    font-size: 24px;
+    padding-top: 8vh;
+}
+.second-two>p{
+    width: 70%;
+    text-align: center;
+    padding-left: 3vw;
+    padding-top: 3vh;
+}
+.second-two>h2{
+    padding-top: 3vh;
+}
+.second-three{
+    margin: -42vh 0 0 70% ;
+    background-color: white;
+    height: 42vh;
+    width: 23%;
+    text-align: center;
+    box-shadow: 0 0 100px 20px rgba(0, 0, 0, 0.589);
+    transition-property: all;
+    transition-duration: 2s;
+}
+.second-three:hover{
+    transform: scale(1.3);
+}
+.second-three>h1{
+    font-size: 24px;
+    padding-top: 8vh;
+}
+.second-three>p{
+    width: 70%;
+    text-align: center;
+    padding-left: 3vw;
+    padding-top: 3vh;
+}
+.second-three>h2{
+padding-top: 3vh;
+}
+ /* ___________2nd-section (END)____________ */
+ /* ___________3rd-section (start)____________ */
+
+.third{
+    height: 30vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 5vh;
+    transition-property: all;
+    transition-duration: 3s;
+    overflow: hidden;
+}
+.third>h2:hover{
+    transform: skew(30deg);
+    transition-duration: 2s;
+}
+.third>h1{
+    padding-top: 3vh;
+}
+.third>h1:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.third>p{
+    width: 45%;
+    padding: 4vh 0 0 30%;
+}
+.third>p:hover{
+    transition-duration: 1s;
+    transform: translate(40px);
+}
+ /* ___________3rd-section (End)____________ */
+ /* ___________4rt-section (start)____________ */
+
+.forth{
+    height:80vh ;
+    width: 100%;
+
+}
+.forth-one>img{
+    height: 50vh;
+    width: 30vw;
+    border-radius: 25px;
+    margin: 10vh 0 0 13vh;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.forth-one>img:hover{
+transform: scale(1.3);
+}
+.forth-two{
+    border: 1px solid black;
+    height: 33vh;
+    width: 20vw;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    margin: -58vh 0 0 45vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.forth-two:hover{
+    transform: scale(1.2);
+}
+.forth-two>h1{
+    padding-top: 3vh;
+}
+.forth-two>p{
+    padding-top: 5vh;
+}
+.forth-three{
+    border: 1px solid black;
+    height: 33vh;
+    width: 20vw;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+    border-radius: 20px;
+    margin: 4vh 0 0 45vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.forth-three:hover{
+    transform: scale(0.8);
+}
+.forth-three>h1{
+    padding-top: 3vh;
+}
+.forth-three>p{
+    padding-top: 5vh;
+}
+.forth-four{
+    border: 1px solid black;
+    height: 33vh;
+    width: 20vw;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+    border-radius: 20px;
+    margin: -73vh 0 0 70vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.forth-four:hover{
+    transform: scale(0.8);
+}
+.forth-four>h1{
+    padding-top: 3vh;
+}
+.forth-four>p{
+    padding-top: 5vh;
+}
+.forth-five{
+    border: 1px solid black;
+    height: 33vh;
+    width: 20vw;
+    padding-left: 1vw;
+    padding-top: 1.5vh;
+    border-radius: 20px;
+    margin: 4vh 0 0 70vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.forth-five:hover{
+transform: scale(1.2);
+}
+.forth-five>h1{
+    padding-top: 3vh;
+}
+.forth-five>p{
+    padding-top: 5vh;
+}
+ /* ___________4rt-section (End)____________ */
+ /* ___________5th-section (start)____________ */
+
+.fifth{
+    height: 60vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(10, 10, 90, 0.644), rgba(13, 13, 112, 0.61)),url(./business-bg-1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 15vh;
+}
+.fifth-one{
+    height: 28vh;
+    width: 15vw;
+    text-align: center;
+    left: 10%;
+    color: white;
+    position: absolute;
+    top: 22vh;
+    transition-property: all;
+}
+.fifth-one:hover{
+transition-duration: 2s;
+background-color: white;
+border-radius: 50%;
+border: 1px solid black;
+color: black;
+transform: scale(1.01);
+
+}
+.fifth-one>h1{
+    margin-top: 10vh;
+}
+.fifth-two{
+    color: white;
+    height: 28vh;
+    width: 15vw;
+    position: absolute;
+    top: 22vh;
+    left: 32%;
+    text-align: center;
+}
+.fifth-two:hover{
+    transition-duration: 2s;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black;
+    transform: scale(1.01);
+    }
+.fifth-two>h1{
+    margin-top: 10vh;
+}
+.fifth-three{
+    height: 28vh;
+    width: 15vw;
+    color: white;
+    position: absolute;
+    top: 22vh;
+    left: 55%;
+    text-align: center;
+}
+.fifth-three:hover{
+    transition-duration: 2s;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black;
+    transform: scale(1.01);
+    }
+.fifth-three>h1{
+    margin-top: 10vh;
+}
+.fifth-four{
+    height: 28vh;
+    color: white;
+    width: 15vw;
+    text-align: center; 
+    position: absolute;
+    top: 22vh;
+    position: absolute;
+    left: 75%;
+}
+.fifth-four:hover{
+    transition-duration: 2s;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    color: black;
+    transform: scale(1.01);
+}
+.fifth-four>h1{
+    margin-top: 10vh;
+}
+ /* ___________5th-section (End)____________ */
+ /* ___________6th-section (Start)____________ */
+ .sixth{
+    height: 35vh;
+    width: 100%;
+    text-align: center;
+    margin-top: 15vh;
+    transition-property: all;
+    transition-duration: 3s;
+    overflow: hidden;
+    background-color: rgb(190, 188, 190);
+}
+.sixth>h2{
+    margin: 5vh;
+}
+.sixth>h2:hover{
+    transform: skew(30deg);
+    transition-duration: 2s;
+}
+.sixth>h1{
+    margin-top: 1.5vh;
+}
+.sixth>h1:hover{
+    transform: scale(1.3);
+    transition-duration: 2s;
+}
+.sixth>p{
+    width: 45%;
+    padding: 4vh 0 0 30%;
+}
+.sixth>p:hover{
+    transition-duration: 1s;
+    transform: translate(40px);
+}
+ /* ___________6th-section (End)____________ */
+ /* ___________7th-section (Start)____________ */
+.seventh{
+    height: 110vh;
+    width: 100%;
+    background-color: rgb(190, 188, 190) ;
+    position: relative;
+}
+.seventh-one{
+    height: 75vh;
+    width: 20%;
+    position: absolute;
+    background-color: white;
+    left: 13%;
+    top: 15vh;
+    padding-left: 2vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.seventh-one:hover{
+  background-color: black;
+  color: white;
+  transform: scale(0.8);
+}
+.one{
+    height: 2px;
+    width: 80%;
+    background-color: black ;
+    border: 1px solid white;
+    margin-left: 1%;
+    margin-top: 3vh;
+}
+.seventh-one>h1{
+    margin-top: 5vh;
+}
+.seventh-one>h2{
+margin-top:2vh ;
+}
+.seventh-one>button{
+    height: 7vh;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    width: 70%;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+}
+.seventh-two{
+    height: 90vh;
+    width: 20%;
+    position: absolute;
+    background-color: white;
+    left: 38%;
+    top: 8vh;
+    padding-left: 2vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.seventh-two:hover{
+    background-color: black;
+    color: white;
+    transform: scale(1.2);
+}
+.two{
+    height: 2px;
+    width: 80%;
+    background-color: black ;
+    border: 1px solid white;
+    margin-left: 2%;
+    margin-top: 3vh;
+}
+.seventh-two>h1{
+    margin-top: 5vh;
+}
+.seventh-two>h2{
+margin-top:3.5vh ;
+}
+.seventh-two>button{
+    height: 7vh;
+    margin-top: 3vh;
+    width: 70%;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 2vw;
+}
+.seventh-three{
+    height: 75vh;
+    width: 20%;
+    position: absolute;
+    background-color: white;
+    left: 63%;
+    top: 15vh;
+    padding-left: 2vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.seventh-three:hover{
+    background-color: black;
+    color: white;
+    transform: scale(0.8);
+}
+.three{
+    height: 2px;
+    width: 80%;
+    background-color: black ;
+    border: 1px solid white;
+    margin-left: 2%;
+    margin-top: 3vh;
+}
+.seventh-three>h1{
+    margin-top: 5vh;
+}
+.seventh-three>h2{
+margin-top:2vh ;
+}
+.seventh-three>button{
+    height: 7vh;
+    margin-top: 3vh;
+    width: 70%;
+    color: white;
+    border-radius: 30px;
+    background-color: black;
+    margin-left: 2vw;
+}
+
+ /* ___________7th-section (End)____________ */
+ /* ___________8th-section (Start)____________ */
+.eight{
+    height: 85vh;
+    width: 100%;
+    position: relative;
+}
+.eight-one{
+    position: absolute;
+    top: 17vh;
+    left: 6vh;
+}
+.eight-one>h1{
+    font-size: 50px;
+}
+.eight-one>h1:hover{
+    transform:scale(1.07);
+    transition-property: all;
+    transition-duration: 2s;
+}
+.eight-one>p{
+    width: 52%;
+    margin-top: 2vh;
+    font-size: 20px;
+}
+.eight-one>p:hover{
+    transform: translate(80px);
+    transition-property: all;
+    transition-duration: 2s;
+}
+.eight-two{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.116);
+    height: 55vh;
+    width: 30%;
+    left: 60%;
+    transition: all;
+    transform: rotate(-25deg);
+    top: 20vh;
+}
+.eight-two:hover{
+    transition-duration: 3s;
+    transform: rotate(0deg);
+}
+.eight-two>p{
+width: 80%;
+padding-top: 3vh;
+font-weight: bold ;
+padding-left: 0.2vw;
+font-weight: bold;
+}
+.eight-two>img{
+    height: 18vh;
+    width: 18%;
+    border-radius: 50%;
+    margin: 2vh 0 0 5vh;
+
+}
+
+ /* ___________8th-section (End)____________ */
+ /* ___________9th-section (Start)____________ */
+.ninth{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+.ninth>h1{
+position: absolute;
+font-size: 44px;
+width: 20vw;
+left: 3vw;
+transition-property: all;
+transition-duration: 2s;
+}
+.ninth>h1:hover{
+  transform: translate(-35px);
+}
+.ninth>p{
+    width: 35%;
+    position: absolute;
+    top: 13vh;
+    left: 3vw;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.ninth>p:hover{
+    transform: translate(55px);
+
+}
+.ninth-one{
+    position: absolute;
+    top: 30vh;
+    width: 30%;
+    left: 7vh;
+}
+.A{
+    height: 4vh;
+    width: 68%;
+    border-radius: 20px;
+    padding-left: 1vw;
+}
+.B{
+    position: absolute;
+    height: 4vh;
+    width: 70%;
+    border-radius: 20px;
+    left: 75%;
+    padding-left: 1vw;
+
+}
+.C{
+    position: absolute;
+    height: 4vh;
+    width: 145%;
+    border-radius: 20px;
+    top: 8vh;
+    right: 1px;
+    left: 0vw;
+    padding-left: 1vw;
+
+}
+.D{
+    position: absolute;
+    height: 20vh;
+    width: 145%;
+    border-radius: 20px;
+    top: 17vh;
+    right: 1px;
+    left: 1px;
+    padding-left: 1vw;
+
+}
+.ninth-one>button{
+    position: absolute;
+    top: 45vh;
+    height: 7vh;
+    width: 12vw;
+    left: 1px;
+    right: 1px;
+    border-radius: 5vh;
+    box-shadow: 0px 0px 25px 15px black;
+    background-color: black;
+    color: white;
+}
+.ninth-one>button:hover{
+    background-color: blue;
+}
+.ninth-two>img{
+    position: absolute;
+    top: -20vh;
+    width: 110%;
+    height: 60vh;
+    left: 185%;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 2s;
+}
+.ninth-two>img:hover{
+    transform: scale(1.2);
+
+}
+ /* ___________9th-section (End)____________ */
+ /* ___________10th-section (Start)____________ */
+ .tenth{
+     height: 82vh;
+     width: 100%;
+     background-color: black;
+     color: white;
+     margin-top: 9vh;
+     position: relative;
+ }
+ .tenth>img{
+     position: absolute;
+     height: 16vh;
+     width: 14vw;
+     left: 3vw;
+     top: 6vh;
+ }
+ .tenth>p{
+     position: absolute;
+     width: 32%;
+     top: 33vh;
+     left: 3vw;
+ }
+ .one-one{
+   margin-top: 40vh;
+   font-weight: bold;
+   font-size: 20px;
+ }
+ .tenth-one{
+     position: absolute;
+     left: 60%; 
+     top: 35vh;    
+ }
+ .tenth-one>h1{
+     font-size: 22px;
+ }
+ .tenth-one>ol{
+     list-style: none;
+     margin-top: 30px;
+ }
+ .tenth-one>ol>li{
+     margin-top: 2vh;
+ }
+
+ .tenth-two{
+    position: absolute;
+    left: 72%; 
+    top: 35vh;    
+}
+.tenth-two>h1{
+    font-size: 22px;
+}
+.tenth-two>ol{
+    list-style: none;
+    margin-top: 30px;
+}
+.tenth-two>ol>li{
+    margin-top: 2vh;
+}
+.tenth-three{
+    position: absolute;
+    left: 83%; 
+    top: 35vh;    
+}
+.tenth-three>h1{
+    font-size: 22px;
+}
+.tenth-three>ol{
+    list-style: none;
+    margin-top: 30px;
+}
+.tenth-three>ol>li{
+    margin-top: 2vh;
+}
+ /* ___________10th-section (End)____________ */
+
+ .one-one:hover{
+     transition-property: all;
+     transition-duration: 3s;
+     transform: rotate(360deg);
+ }
